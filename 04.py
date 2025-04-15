@@ -4,7 +4,7 @@ notas=0
 soma=0
 while i <=alunos:
     notas=float(input("qual foi a nota dos aluno?"))
-    i=i+1
     soma+=notas
+    i = i + 1
 media=soma/alunos
 print(media)
